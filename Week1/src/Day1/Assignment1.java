@@ -15,9 +15,9 @@ public class Assignment1{
 			}
 			System.out.println("");
 		}
-        temp.printDot(9);
+        	temp.printDot(9);
 		System.out.println("2)");
-        temp.printDot(10);
+        	temp.printDot(10);
 		for(int i = 4; i >0; i--)
 		{
 			for(int j= i;j>0;j--)
@@ -40,9 +40,9 @@ public class Assignment1{
 			}
 			System.out.println("");
 		}
-        temp.printDot(11);
+        	temp.printDot(11);
 		System.out.println("4)");
-        temp.printDot(12);
+        	temp.printDot(12);
 		for(int i = 3; i >=0; i--)
 		{
 			for(int j=0;j<space-i;j++)
