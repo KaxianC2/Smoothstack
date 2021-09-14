@@ -13,14 +13,15 @@ package Day2;
  */
     public static void main(String[] args){
         if(args.length>0){
-            String tLine="";
+            int tLine=0;
                 for(String s: args)
                 {
                     try{
-                        tLine+= s;
+
+                        tLine+= Integer.parseInt(s);
                     } 
-                    catch (Exception e) {
-                        System.out.println("Error in adding arguments to "+ tLine);
+                    catch (NumberFormatException e) {
+                        System.out.println("Error Coverting "+ s +" to an Integer");
                     }
                 }
             System.out.println(tLine);
