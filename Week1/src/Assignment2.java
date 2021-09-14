@@ -9,7 +9,6 @@ public class Assignment2 {
         int ran = (int)(Math.random()*99+1);
 		Scanner input = new Scanner(System.in);
 		System.out.println("Guess a number between 1-100");
-		System.out.println(ran);
 		int count =0;
 		do{
 			int x = input.nextInt();
