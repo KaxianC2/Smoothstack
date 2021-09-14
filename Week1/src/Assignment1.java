@@ -5,7 +5,7 @@
 public class Assignment1{
     public static void main(String[] args) throws Exception {
         System.out.println("1)");
-		for(int i = 1; i <=4; i++)
+		for(int i = 1; i <=4; i++) //triangle shape * top down
 		{
 			for(int j= 0;j<i;j++)
 			{
@@ -16,7 +16,7 @@ public class Assignment1{
         printDot(9);
 		System.out.println("2)");
         printDot(10);
-		for(int i = 4; i >0; i--)
+		for(int i = 4; i >0; i--)//triangle shape * bottom up
 		{
 			for(int j= i;j>0;j--)
 			{
@@ -26,7 +26,7 @@ public class Assignment1{
 		}
 		System.out.println("3)");
 		int space = 5;
-		for(int i = 0; i <4; i++)
+		for(int i = 0; i <4; i++)//Diamond Top down
 		{
 			for(int j=0;j<space-i;j++)
 			{
@@ -41,7 +41,7 @@ public class Assignment1{
         printDot(11);
 		System.out.println("4)");
         printDot(12);
-		for(int i = 3; i >=0; i--)
+		for(int i = 3; i >=0; i--)//Diamond Shape bottom up
 		{
 			for(int j=0;j<space-i;j++)
 			{
