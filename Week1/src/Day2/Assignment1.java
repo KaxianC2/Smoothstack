@@ -22,7 +22,6 @@ package Day2;
                     catch (Exception e) {
                         System.out.println("Error in adding arguments to "+ tLine);
                     }
-                    tLine+= s;
                 }
             System.out.println(tLine);
         }
