@@ -5,6 +5,7 @@ package Day1;
 */
 public class Assignment1{
     public static void main(String[] args) throws Exception {
+		Assignment1 temp = new Assignment1();
         System.out.println("1)");
 		for(int i = 1; i <=4; i++)
 		{
@@ -14,9 +15,9 @@ public class Assignment1{
 			}
 			System.out.println("");
 		}
-        printDot(9);
+        temp.printDot(9);
 		System.out.println("2)");
-        printDot(10);
+        temp.printDot(10);
 		for(int i = 4; i >0; i--)
 		{
 			for(int j= i;j>0;j--)
@@ -39,9 +40,9 @@ public class Assignment1{
 			}
 			System.out.println("");
 		}
-        printDot(11);
+        temp.printDot(11);
 		System.out.println("4)");
-        printDot(12);
+        temp.printDot(12);
 		for(int i = 3; i >=0; i--)
 		{
 			for(int j=0;j<space-i;j++)
@@ -56,10 +57,10 @@ public class Assignment1{
 		}
     }
 	/**
-	 * Prints out '.' based on input
-	 * @param num An integer denoting how many '.' to print
+	 * Prints out '*' based on input
+	 * @param num An integer denoting how many '*'' to print
 	 */
-    public static void printDot(int num)
+    public void printDot(int num)
     {
         for(int i=0;i<=num;i++)
         {
