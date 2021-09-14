@@ -1,3 +1,7 @@
+/**
+*Assignment2 --- A number guessing game
+*@author Kaxian Situ
+*/
 import java.lang.Math; 
 import java.util.Scanner;
 public class Assignment2 {
@@ -25,5 +29,6 @@ public class Assignment2 {
 				break;
 			}
 		}while(true);
+		input.close();
     }
 }

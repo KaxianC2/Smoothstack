@@ -1,3 +1,7 @@
+/**
+* Assignment1 --- Program that Prints out '*' using looping construct
+*@author Kaxian Situ
+*/
 public class Assignment1{
     public static void main(String[] args) throws Exception {
         System.out.println("1)");
@@ -50,7 +54,10 @@ public class Assignment1{
 			System.out.println("");
 		}
     }
-
+	/**
+	 * Prints out '*' based on input
+	 * @param num An integer denoting how many '*'' to print
+	 */
     public static void printDot(int num)
     {
         for(int i=0;i<=num;i++)
