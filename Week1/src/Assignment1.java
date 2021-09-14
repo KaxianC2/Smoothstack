@@ -55,8 +55,8 @@ public class Assignment1{
 		}
     }
 	/**
-	 * Prints out '*' based on input
-	 * @param num An integer denoting how many '*'' to print
+	 * Prints out '.' based on input
+	 * @param num An integer denoting how many '.' to print
 	 */
     public static void printDot(int num)
     {
